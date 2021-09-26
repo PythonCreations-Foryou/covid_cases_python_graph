@@ -7,7 +7,7 @@ lon = list(data['Longitude'])
 conf = list(data['TotalConfirmed'])
 dis = list(data['discharged'])
 
-
+print('hai all changes made')
 
 def colour_producer(el):
     if el <10000:
