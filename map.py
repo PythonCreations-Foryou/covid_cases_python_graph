@@ -17,7 +17,7 @@ def colour_producer(el):
     else:
         return 'red'
         
-    
+print('branch change')    
 
 
 map = folium.Map(location = [22.00, 77], zoom_start = 6, tiles = "Stamen Terrain") #Bottom layer added because of stamen terrain
